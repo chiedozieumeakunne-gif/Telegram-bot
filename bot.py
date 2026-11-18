@@ -6,7 +6,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 
-load_dotenv(Path(__file__).parent/"key_card.env")
+load_dotenv(place_path_to_bot_passcode_here)
 
 key_card = os.getenv("code")
 offset = None
